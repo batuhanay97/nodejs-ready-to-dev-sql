@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { app } = require('./../../server');
+const { app } = require('../../server.js');
 const testConfig = require('./../../config/test.config');
 
 describe('HELPER', () => {
